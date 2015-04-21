@@ -7,21 +7,9 @@
  * See accompanying file LICENSE.md or copy at http://opensource.org/licenses/MIT
  */
 
-#ifndef SPOT_DUMMY_HPP
-#define SPOT_DUMMY_HPP
+#ifndef SPOT_HPP
+#define SPOT_HPP
 
-namespace spot
-{
+#include "Spot/dummy.hpp"
 
-//! Execute dummy function.
-/*!
- * Executes dummy function. This function can be removed as soon as there is content in the
- * library. It's used to set up a dummy unit test.
- *
- * @return True
- */
-bool executeDummy( );
-
-} // namespace spot
-
-#endif // SPOT_DUMMY_HPP
+#endif // SPOT_HPP
